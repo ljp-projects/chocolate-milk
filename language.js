@@ -17,7 +17,7 @@ const Instruction = {
     }
 }
 
-const console = document.querySelector("#console")
+const console = document.getElementById("console")
 
 const interpret = (instruction) => {
     if (!instruction.kind) {
