@@ -19,7 +19,7 @@ const Instruction = {
 
 const console = document.querySelector("#console")
 
-const interpret = (instruction) {
+const interpret = (instruction) => {
     if (!instruction.kind) {
         return null
     }
