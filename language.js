@@ -19,6 +19,8 @@ const Instruction = {
 
 const console = document.getElementById("console")
 
+console.textContent = "fuck"
+
 const interpret = (instruction) => {
     if (!instruction.kind) {
         return null
