@@ -19,12 +19,12 @@ const Instruction = {
 
 const console = document.getElementById("console")
 
-console.textContent = "fuck"
-
 const interpret = (instruction) => {
     if (!instruction.kind) {
         return null
     }
+
+    console.log(instruction)
 
     switch (instruction) {
         case "log":
