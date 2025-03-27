@@ -24,7 +24,7 @@ const interpret = (instruction) => {
         return null
     }
 
-    console.log(instrruction)
+    console.log(instruction)
 
     switch (instruction) {
         case "log":
