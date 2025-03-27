@@ -26,7 +26,7 @@ const interpret = (instruction) => {
 
     console.log(instruction)
 
-    switch (instruction) {
+    switch (instruction.kind) {
         case "log":
             langConsole.textContent = instruction.template.args.join("")
     }
