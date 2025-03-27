@@ -17,14 +17,14 @@ const Instruction = {
     }
 }
 
-const console = document.getElementById("console")
+const console = document.getElementById("langConsole")
 
 const interpret = (instruction) => {
     if (!instruction.kind) {
         return null
     }
 
-    console.log(instruction)
+    console.log(instrruction)
 
     switch (instruction) {
         case "log":
