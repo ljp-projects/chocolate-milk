@@ -17,7 +17,7 @@ const Instruction = {
     }
 }
 
-const console = document.getElementById("langConsole")
+const langConsole = document.getElementById("langConsole")
 
 const interpret = (instruction) => {
     if (!instruction.kind) {
@@ -28,7 +28,7 @@ const interpret = (instruction) => {
 
     switch (instruction) {
         case "log":
-            console.textContent = instruction.template.args.join("")
+            langConsole.textContent = instruction.template.args.join("")
     }
 }
 
